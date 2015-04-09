@@ -8,3 +8,4 @@ from .naive_forecast import naive_forecast
 from .seasonal_naive_forecast import seasonal_naive_forecast
 from .drift_method import drift_method
 from .average_method import average_method
+from .crostons_method import crostons_method
