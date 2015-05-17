@@ -11,3 +11,4 @@ from .average_method import average_method
 from .crostons_method import crostons_method
 from .sba_method import sba_method
 from .tsb_method import tsb_method
+from .linear_regression_forecast import linear_regression_forecast
