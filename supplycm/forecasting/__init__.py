@@ -5,3 +5,4 @@ from .single_exponential_smoothing import single_exponential_smoothing
 from .holt_linear_trend import holt_linear_trend
 from .holt_winters import holt_winters
 from .naive_forecast import naive_forecast
+from .seasonal_naive_forecast import seasonal_naive_forecast
