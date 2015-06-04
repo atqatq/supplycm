@@ -7,3 +7,4 @@ from .holt_winters import holt_winters
 from .naive_forecast import naive_forecast
 from .seasonal_naive_forecast import seasonal_naive_forecast
 from .drift_method import drift_method
+from .average_method import average_method
