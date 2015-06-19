@@ -14,3 +14,4 @@ from .tsb_method import tsb_method
 from .linear_regression_forecast import linear_regression_forecast
 from .polynomial_regression_forecast import _solve_linear_system
 from .exponential_trend_forecast import exponential_trend_forecast
+from .classical_decomposition import classical_decomposition
