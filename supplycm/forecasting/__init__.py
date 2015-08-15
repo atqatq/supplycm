@@ -19,3 +19,4 @@ from .moving_median_filter import moving_median_filter
 from .akaike_information_criterion import akaike_information_criterion
 from .bayesian_information_criterion import bayesian_information_criterion
 from .autocorrelation import autocorrelation
+from .partial_autocorrelation import partial_autocorrelation
