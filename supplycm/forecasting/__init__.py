@@ -21,3 +21,4 @@ from .bayesian_information_criterion import bayesian_information_criterion
 from .autocorrelation import autocorrelation
 from .partial_autocorrelation import partial_autocorrelation
 from .ar_model import ar_model
+from .ma_model import ma_model
