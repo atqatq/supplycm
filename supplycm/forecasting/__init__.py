@@ -24,3 +24,4 @@ from .ar_model import ar_model
 from .ma_model import ma_model
 from .theta_method import theta_method
 from .theils_u import theils_u
+from .tracking_signal import tracking_signal
