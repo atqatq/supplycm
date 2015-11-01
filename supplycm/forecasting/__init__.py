@@ -26,3 +26,4 @@ from .theta_method import theta_method
 from .theils_u import theils_u
 from .tracking_signal import tracking_signal
 from .brier_score import brier_score
+from .browns_double_exponential import browns_double_exponential
