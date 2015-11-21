@@ -28,3 +28,4 @@ from .tracking_signal import tracking_signal
 from .brier_score import brier_score
 from .browns_double_exponential import browns_double_exponential
 from .browns_triple_exponential import browns_triple_exponential
+from .pegels_classification import pegels_classification
