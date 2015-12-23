@@ -31,3 +31,4 @@ from .browns_triple_exponential import browns_triple_exponential
 from .pegels_classification import pegels_classification
 from .bottom_up_reconciliation import bottom_up_reconciliation
 from .top_down_reconciliation import top_down_reconciliation
+from .bates_granger_combination import bates_granger_combination
