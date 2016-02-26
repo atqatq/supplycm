@@ -37,3 +37,4 @@ from .seasonal_trend_loess import seasonal_trend_loess
 from .box_cox_transform import box_cox_transform
 from .inverse_box_cox import inverse_box_cox
 from .kpss_test import kpss_test
+from .adf_test import adf_test
