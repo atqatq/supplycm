@@ -40,3 +40,4 @@ from .kpss_test import kpss_test
 from .adf_test import adf_test
 from .ljung_box_test import ljung_box_test
 from .hurst_exponent import hurst_exponent
+from .seasonal_indices import seasonal_indices
