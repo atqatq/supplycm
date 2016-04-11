@@ -41,3 +41,4 @@ from .adf_test import adf_test
 from .ljung_box_test import ljung_box_test
 from .hurst_exponent import hurst_exponent
 from .seasonal_indices import seasonal_indices
+from .doubling_seasonal_smoothing import doubling_seasonal_smoothing
