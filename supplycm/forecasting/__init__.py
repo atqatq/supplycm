@@ -43,3 +43,4 @@ from .hurst_exponent import hurst_exponent
 from .seasonal_indices import seasonal_indices
 from .doubling_seasonal_smoothing import doubling_seasonal_smoothing
 from .gompertz_trend import gompertz_trend
+from .logistic_trend import logistic_trend
