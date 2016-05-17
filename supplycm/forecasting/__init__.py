@@ -44,3 +44,4 @@ from .seasonal_indices import seasonal_indices
 from .doubling_seasonal_smoothing import doubling_seasonal_smoothing
 from .gompertz_trend import gompertz_trend
 from .logistic_trend import logistic_trend
+from .mstl_decomposition import mstl_decomposition
