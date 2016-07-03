@@ -48,3 +48,4 @@ from .mstl_decomposition import mstl_decomposition
 from .rolling_mean_forecast import rolling_mean_forecast
 from .ses_with_drift import ses_with_drift
 from .var_model import var_model
+from .croston_with_decay import croston_with_decay
