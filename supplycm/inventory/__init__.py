@@ -6,3 +6,4 @@ from .eoq_quantity_discount import eoq_quantity_discount
 from .newsvendor_model import newsvendor_model
 from .s_s_policy import s_s_policy
 from .r_q_policy import r_q_policy
+from .base_stock_policy import base_stock_policy
