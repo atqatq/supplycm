@@ -8,3 +8,4 @@ from .s_s_policy import s_s_policy
 from .r_q_policy import r_q_policy
 from .base_stock_policy import base_stock_policy
 from .periodic_review_policy import periodic_review_policy
+from .abc_analysis import abc_analysis
