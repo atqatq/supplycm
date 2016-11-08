@@ -10,3 +10,4 @@ from .base_stock_policy import base_stock_policy
 from .periodic_review_policy import periodic_review_policy
 from .abc_analysis import abc_analysis
 from .xyz_analysis import xyz_analysis
+from .abc_xyz_matrix import abc_xyz_matrix
