@@ -12,3 +12,4 @@ from .abc_analysis import abc_analysis
 from .xyz_analysis import xyz_analysis
 from .abc_xyz_matrix import abc_xyz_matrix
 from .safety_stock_normal import safety_stock_normal
+from .safety_stock_with_lead_time_var import safety_stock_with_lead_time_var
