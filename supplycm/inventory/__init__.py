@@ -17,3 +17,4 @@ from .reorder_point import reorder_point
 from .fill_rate_calculation import fill_rate_calculation
 from .cycle_service_level import cycle_service_level
 from .inventory_turnover_ratio import inventory_turnover_ratio
+from .days_of_supply import days_of_supply
