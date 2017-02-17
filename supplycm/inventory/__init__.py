@@ -19,3 +19,4 @@ from .cycle_service_level import cycle_service_level
 from .inventory_turnover_ratio import inventory_turnover_ratio
 from .days_of_supply import days_of_supply
 from .gmroi import gmroi
+from .bullwhip_effect import bullwhip_effect
