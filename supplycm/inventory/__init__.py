@@ -22,3 +22,4 @@ from .gmroi import gmroi
 from .bullwhip_effect import bullwhip_effect
 from .risk_pooling import risk_pooling
 from .square_root_law import square_root_law
+from .wagner_whitin import wagner_whitin
