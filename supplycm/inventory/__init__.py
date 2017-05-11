@@ -26,3 +26,4 @@ from .wagner_whitin import wagner_whitin
 from .silver_meal import silver_meal
 from .least_unit_cost import least_unit_cost
 from .least_period_cost import least_period_cost
+from .part_period_balancing import part_period_balancing
