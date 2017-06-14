@@ -29,3 +29,4 @@ from .least_period_cost import least_period_cost
 from .part_period_balancing import part_period_balancing
 from .periodic_order_quantity import periodic_order_quantity
 from .lot_for_lot import lot_for_lot
+from .fixed_order_quantity import fixed_order_quantity
