@@ -30,3 +30,4 @@ from .part_period_balancing import part_period_balancing
 from .periodic_order_quantity import periodic_order_quantity
 from .lot_for_lot import lot_for_lot
 from .fixed_order_quantity import fixed_order_quantity
+from .multi_echelon_inventory import multi_echelon_inventory
