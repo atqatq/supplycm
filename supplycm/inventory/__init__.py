@@ -32,3 +32,4 @@ from .lot_for_lot import lot_for_lot
 from .fixed_order_quantity import fixed_order_quantity
 from .multi_echelon_inventory import multi_echelon_inventory
 from .perishable_inventory import perishable_inventory
+from .fifo_valuation import fifo_valuation
