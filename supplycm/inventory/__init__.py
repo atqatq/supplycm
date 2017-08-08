@@ -34,3 +34,4 @@ from .multi_echelon_inventory import multi_echelon_inventory
 from .perishable_inventory import perishable_inventory
 from .fifo_valuation import fifo_valuation
 from .lifo_valuation import lifo_valuation
+from .weighted_average_cost import weighted_average_cost
