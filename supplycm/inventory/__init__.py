@@ -38,3 +38,4 @@ from .weighted_average_cost import weighted_average_cost
 from .expected_backorder import expected_backorder
 from .expected_on_hand import expected_on_hand
 from .spare_parts_ved import spare_parts_ved
+from .spare_parts_fsn import spare_parts_fsn
