@@ -40,3 +40,4 @@ from .expected_on_hand import expected_on_hand
 from .spare_parts_ved import spare_parts_ved
 from .spare_parts_fsn import spare_parts_fsn
 from .spare_parts_hml import spare_parts_hml
+from .spare_parts_sde import spare_parts_sde
