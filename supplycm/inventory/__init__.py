@@ -44,3 +44,4 @@ from .spare_parts_sde import spare_parts_sde
 from .joint_replenishment import joint_replenishment
 from .vendor_managed_inventory import vendor_managed_inventory
 from .demand_during_lead_time import demand_during_lead_time
+from .inventory_position import inventory_position
