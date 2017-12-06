@@ -45,3 +45,4 @@ from .joint_replenishment import joint_replenishment
 from .vendor_managed_inventory import vendor_managed_inventory
 from .demand_during_lead_time import demand_during_lead_time
 from .inventory_position import inventory_position
+from .stockout_cost import stockout_cost
