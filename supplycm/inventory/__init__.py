@@ -47,3 +47,4 @@ from .demand_during_lead_time import demand_during_lead_time
 from .inventory_position import inventory_position
 from .stockout_cost import stockout_cost
 from .pipeline_inventory import pipeline_inventory
+from .decoupling_inventory import decoupling_inventory
