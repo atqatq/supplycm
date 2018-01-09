@@ -48,3 +48,4 @@ from .inventory_position import inventory_position
 from .stockout_cost import stockout_cost
 from .pipeline_inventory import pipeline_inventory
 from .decoupling_inventory import decoupling_inventory
+from .anticipation_inventory import anticipation_inventory
