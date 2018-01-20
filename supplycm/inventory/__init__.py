@@ -49,3 +49,4 @@ from .stockout_cost import stockout_cost
 from .pipeline_inventory import pipeline_inventory
 from .decoupling_inventory import decoupling_inventory
 from .anticipation_inventory import anticipation_inventory
+from .obsolescence_cost import obsolescence_cost
