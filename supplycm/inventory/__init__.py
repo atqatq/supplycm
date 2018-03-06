@@ -53,3 +53,4 @@ from .obsolescence_cost import obsolescence_cost
 from .holding_cost_calculation import holding_cost_calculation
 from .ordering_cost_allocation import ordering_cost_allocation
 from .inventory_carrying_rate import inventory_carrying_rate
+from .slow_moving_detection import slow_moving_detection
