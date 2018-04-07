@@ -56,3 +56,4 @@ from .inventory_carrying_rate import inventory_carrying_rate
 from .slow_moving_detection import slow_moving_detection
 from .dead_stock_identification import dead_stock_identification
 from .aging_schedule import aging_schedule
+from .inventory_to_sales_ratio import inventory_to_sales_ratio
