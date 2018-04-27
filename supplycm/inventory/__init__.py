@@ -58,3 +58,4 @@ from .dead_stock_identification import dead_stock_identification
 from .aging_schedule import aging_schedule
 from .inventory_to_sales_ratio import inventory_to_sales_ratio
 from .optimal_stockout_probability import optimal_stockout_probability
+from .marginal_analysis_newsvendor import marginal_analysis_newsvendor
