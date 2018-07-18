@@ -5,3 +5,4 @@ from .rmse import rmse
 from .mse import mse
 from .mae import mae
 from .mase import mase
+from .r_squared import r_squared
