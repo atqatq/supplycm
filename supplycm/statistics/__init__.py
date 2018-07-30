@@ -6,3 +6,4 @@ from .mse import mse
 from .mae import mae
 from .mase import mase
 from .r_squared import r_squared
+from .adjusted_r_squared import adjusted_r_squared
