@@ -16,3 +16,4 @@ from .coefficient_of_variation import coefficient_of_variation
 from .confidence_interval_mean import confidence_interval_mean
 from .descriptive_stats import descriptive_stats
 from .correlation import correlation
+from .spearman_correlation import _rank
