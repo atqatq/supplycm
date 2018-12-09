@@ -18,3 +18,4 @@ from .descriptive_stats import descriptive_stats
 from .correlation import correlation
 from .spearman_correlation import _rank
 from .outlier_detection_iqr import outlier_detection_iqr
+from .zscore import zscore
