@@ -19,3 +19,4 @@ from .correlation import correlation
 from .spearman_correlation import _rank
 from .outlier_detection_iqr import outlier_detection_iqr
 from .zscore import zscore
+from .minmax_scale import minmax_scale
