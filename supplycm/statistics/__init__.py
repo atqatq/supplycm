@@ -21,3 +21,4 @@ from .outlier_detection_iqr import outlier_detection_iqr
 from .zscore import zscore
 from .minmax_scale import minmax_scale
 from .moving_average_smooth import moving_average_smooth
+from .exponential_smooth import exponential_smooth
