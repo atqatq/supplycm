@@ -23,3 +23,4 @@ from .minmax_scale import minmax_scale
 from .moving_average_smooth import moving_average_smooth
 from .exponential_smooth import exponential_smooth
 from .diebold_mariano_test import diebold_mariano_test
+from .coefficient_of_determination import coefficient_of_determination
