@@ -27,3 +27,4 @@ from .coefficient_of_determination import coefficient_of_determination
 from .kurtosis import kurtosis
 from .skewness import skewness
 from .shapiro_wilk_approx import shapiro_wilk_approx
+from .jarque_bera_test import jarque_bera_test
