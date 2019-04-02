@@ -28,3 +28,4 @@ from .kurtosis import kurtosis
 from .skewness import skewness
 from .shapiro_wilk_approx import shapiro_wilk_approx
 from .jarque_bera_test import jarque_bera_test
+from .anderson_darling_test import anderson_darling_test
