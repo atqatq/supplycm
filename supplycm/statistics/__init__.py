@@ -30,3 +30,4 @@ from .shapiro_wilk_approx import shapiro_wilk_approx
 from .jarque_bera_test import jarque_bera_test
 from .anderson_darling_test import anderson_darling_test
 from .kolmogorov_smirnov_test import kolmogorov_smirnov_test
+from .chi_square_goodness_of_fit import chi_square_goodness_of_fit
