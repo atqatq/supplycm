@@ -32,3 +32,4 @@ from .anderson_darling_test import anderson_darling_test
 from .kolmogorov_smirnov_test import kolmogorov_smirnov_test
 from .chi_square_goodness_of_fit import chi_square_goodness_of_fit
 from .t_test_one_sample import t_test_one_sample
+from .t_test_two_sample import t_test_two_sample
