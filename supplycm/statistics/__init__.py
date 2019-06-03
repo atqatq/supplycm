@@ -34,3 +34,4 @@ from .chi_square_goodness_of_fit import chi_square_goodness_of_fit
 from .t_test_one_sample import t_test_one_sample
 from .t_test_two_sample import t_test_two_sample
 from .f_test_variance import f_test_variance
+from .anova_one_way import anova_one_way
