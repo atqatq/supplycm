@@ -35,3 +35,4 @@ from .t_test_one_sample import t_test_one_sample
 from .t_test_two_sample import t_test_two_sample
 from .f_test_variance import f_test_variance
 from .anova_one_way import anova_one_way
+from .mann_whitney_u import mann_whitney_u
