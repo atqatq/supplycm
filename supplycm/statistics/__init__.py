@@ -37,3 +37,4 @@ from .f_test_variance import f_test_variance
 from .anova_one_way import anova_one_way
 from .mann_whitney_u import mann_whitney_u
 from .wilcoxon_signed_rank import wilcoxon_signed_rank
+from .kolmogorov_smirnov_two_sample import kolmogorov_smirnov_two_sample
