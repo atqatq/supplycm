@@ -38,3 +38,4 @@ from .anova_one_way import anova_one_way
 from .mann_whitney_u import mann_whitney_u
 from .wilcoxon_signed_rank import wilcoxon_signed_rank
 from .kolmogorov_smirnov_two_sample import kolmogorov_smirnov_two_sample
+from .bootstrap_confidence_interval import bootstrap_confidence_interval
