@@ -6,3 +6,4 @@ from .tsp_cheapest_insertion import tsp_cheapest_insertion
 from .tsp_two_opt import tsp_two_opt
 from .tsp_three_opt import tsp_three_opt
 from .tsp_christofides import tsp_christofides
+from .tsp_held_karp import tsp_held_karp
