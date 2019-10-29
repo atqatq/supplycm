@@ -7,3 +7,4 @@ from .tsp_two_opt import tsp_two_opt
 from .tsp_three_opt import tsp_three_opt
 from .tsp_christofides import tsp_christofides
 from .tsp_held_karp import tsp_held_karp
+from .vrp_sweep import vrp_sweep
