@@ -9,3 +9,4 @@ from .tsp_christofides import tsp_christofides
 from .tsp_held_karp import tsp_held_karp
 from .vrp_sweep import vrp_sweep
 from .vrp_savings import vrp_savings
+from .vrp_cluster_first_route_second import vrp_cluster_first_route_second
