@@ -11,3 +11,4 @@ from .vrp_sweep import vrp_sweep
 from .vrp_savings import vrp_savings
 from .vrp_cluster_first_route_second import vrp_cluster_first_route_second
 from .vrp_capacitated_greedy import vrp_capacitated_greedy
+from .vrp_with_time_windows import vrp_with_time_windows
