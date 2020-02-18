@@ -17,3 +17,4 @@ from .transportation_simplex_modi import transportation_simplex_modi
 from .northwest_corner_method import northwest_corner_method
 from .vogels_approximation import vogels_approximation
 from .least_cost_method import least_cost_method
+from .steiner_tree import steiner_tree
