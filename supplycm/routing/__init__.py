@@ -18,3 +18,4 @@ from .northwest_corner_method import northwest_corner_method
 from .vogels_approximation import vogels_approximation
 from .least_cost_method import least_cost_method
 from .steiner_tree import steiner_tree
+from .multi_depot_vrp import multi_depot_vrp
