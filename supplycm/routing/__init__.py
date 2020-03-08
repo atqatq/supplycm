@@ -19,3 +19,4 @@ from .vogels_approximation import vogels_approximation
 from .least_cost_method import least_cost_method
 from .steiner_tree import steiner_tree
 from .multi_depot_vrp import multi_depot_vrp
+from .pickup_delivery_problem import pickup_delivery_problem
