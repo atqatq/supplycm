@@ -22,3 +22,4 @@ from .multi_depot_vrp import multi_depot_vrp
 from .pickup_delivery_problem import pickup_delivery_problem
 from .transshipment_problem import transshipment_problem
 from .chinese_postman import chinese_postman
+from .hamiltonian_path_backtrack import hamiltonian_path_backtrack
