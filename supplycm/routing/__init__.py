@@ -23,3 +23,4 @@ from .pickup_delivery_problem import pickup_delivery_problem
 from .transshipment_problem import transshipment_problem
 from .chinese_postman import chinese_postman
 from .hamiltonian_path_backtrack import hamiltonian_path_backtrack
+from .eulerian_tour import eulerian_tour
