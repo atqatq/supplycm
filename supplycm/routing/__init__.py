@@ -25,3 +25,4 @@ from .chinese_postman import chinese_postman
 from .hamiltonian_path_backtrack import hamiltonian_path_backtrack
 from .eulerian_tour import eulerian_tour
 from .vehicle_scheduling import vehicle_scheduling
+from .split_delivery_vrp import split_delivery_vrp
