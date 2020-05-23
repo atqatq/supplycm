@@ -26,3 +26,4 @@ from .hamiltonian_path_backtrack import hamiltonian_path_backtrack
 from .eulerian_tour import eulerian_tour
 from .vehicle_scheduling import vehicle_scheduling
 from .split_delivery_vrp import split_delivery_vrp
+from .periodic_vrp import periodic_vrp
