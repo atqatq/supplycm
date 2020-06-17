@@ -28,3 +28,4 @@ from .vehicle_scheduling import vehicle_scheduling
 from .split_delivery_vrp import split_delivery_vrp
 from .periodic_vrp import periodic_vrp
 from .rural_postman import rural_postman
+from .dial_a_ride import dial_a_ride
