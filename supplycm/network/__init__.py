@@ -4,3 +4,4 @@ from .bellman_ford import bellman_ford
 from .floyd_warshall import floyd_warshall
 from .all_pairs_shortest_path import all_pairs_shortest_path
 from .kruskal_mst import kruskal_mst
+from .prim_mst import prim_mst
