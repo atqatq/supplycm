@@ -6,3 +6,4 @@ from .all_pairs_shortest_path import all_pairs_shortest_path
 from .kruskal_mst import kruskal_mst
 from .prim_mst import prim_mst
 from .ford_fulkerson_max_flow import ford_fulkerson_max_flow
+from .edmonds_karp_max_flow import edmonds_karp_max_flow
