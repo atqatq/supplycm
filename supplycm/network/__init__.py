@@ -8,3 +8,4 @@ from .prim_mst import prim_mst
 from .ford_fulkerson_max_flow import ford_fulkerson_max_flow
 from .edmonds_karp_max_flow import edmonds_karp_max_flow
 from .min_cost_flow_cycle_canceling import min_cost_flow_cycle_canceling
+from .successive_shortest_path import successive_shortest_path
