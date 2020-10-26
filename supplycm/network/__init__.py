@@ -10,3 +10,4 @@ from .edmonds_karp_max_flow import edmonds_karp_max_flow
 from .min_cost_flow_cycle_canceling import min_cost_flow_cycle_canceling
 from .successive_shortest_path import successive_shortest_path
 from .bipartite_matching import bipartite_matching
+from .min_weight_bipartite_matching import min_weight_bipartite_matching
