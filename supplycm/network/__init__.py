@@ -12,3 +12,4 @@ from .successive_shortest_path import successive_shortest_path
 from .bipartite_matching import bipartite_matching
 from .min_weight_bipartite_matching import min_weight_bipartite_matching
 from .max_weight_bipartite_matching import max_weight_bipartite_matching
+from .topological_sort import topological_sort
