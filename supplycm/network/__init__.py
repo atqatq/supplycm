@@ -20,3 +20,4 @@ from .connected_components import connected_components
 from .articulation_points import articulation_points
 from .bridges_in_graph import bridges_in_graph
 from .a_star_search import a_star_search
+from .bidirectional_search import bidirectional_search
