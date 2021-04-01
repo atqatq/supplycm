@@ -24,3 +24,4 @@ from .bidirectional_search import bidirectional_search
 from .min_cut_stoer_wagner import min_cut_stoer_wagner
 from .maximal_clique_bron_kerbosch import maximal_clique_bron_kerbosch
 from .page_rank import page_rank
+from .betweenness_centrality import betweenness_centrality
