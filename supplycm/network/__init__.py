@@ -26,3 +26,4 @@ from .maximal_clique_bron_kerbosch import maximal_clique_bron_kerbosch
 from .page_rank import page_rank
 from .betweenness_centrality import betweenness_centrality
 from .degree_centrality import degree_centrality
+from .eigenvector_centrality import eigenvector_centrality
