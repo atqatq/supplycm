@@ -6,3 +6,4 @@ from .wspt_rule import wspt_rule
 from .moore_hodgson import moore_hodgson
 from .neh_heuristic import neh_heuristic
 from .critical_ratio import critical_ratio
+from .least_slack import least_slack
