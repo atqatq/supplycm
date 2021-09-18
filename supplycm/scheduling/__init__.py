@@ -9,3 +9,4 @@ from .critical_ratio import critical_ratio
 from .least_slack import least_slack
 from .fcfs_rule import fcfs_rule
 from .lrpt_rule import lrpt_rule
+from .srpt_rule import srpt_rule
