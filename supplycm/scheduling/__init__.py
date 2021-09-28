@@ -10,3 +10,4 @@ from .least_slack import least_slack
 from .fcfs_rule import fcfs_rule
 from .lrpt_rule import lrpt_rule
 from .srpt_rule import srpt_rule
+from .cmax_calculation import cmax_calculation
