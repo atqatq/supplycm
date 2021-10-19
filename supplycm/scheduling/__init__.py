@@ -12,3 +12,4 @@ from .lrpt_rule import lrpt_rule
 from .srpt_rule import srpt_rule
 from .cmax_calculation import cmax_calculation
 from .tardiness_calculation import tardiness_calculation
+from .total_completion_time import total_completion_time
