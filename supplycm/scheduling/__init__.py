@@ -15,3 +15,4 @@ from .tardiness_calculation import tardiness_calculation
 from .total_completion_time import total_completion_time
 from .total_weighted_tardiness import total_weighted_tardiness
 from .list_scheduling import list_scheduling
+from .lpt_rule import lpt_rule
