@@ -17,3 +17,4 @@ from .total_weighted_tardiness import total_weighted_tardiness
 from .list_scheduling import list_scheduling
 from .lpt_rule import lpt_rule
 from .multifit_algorithm import multifit_algorithm
+from .open_shop_schedule import open_shop_schedule
