@@ -19,3 +19,4 @@ from .lpt_rule import lpt_rule
 from .multifit_algorithm import multifit_algorithm
 from .open_shop_schedule import open_shop_schedule
 from .job_shop_schedule import job_shop_schedule
+from .flow_shop_schedule import flow_shop_schedule
