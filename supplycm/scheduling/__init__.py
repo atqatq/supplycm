@@ -21,3 +21,4 @@ from .open_shop_schedule import open_shop_schedule
 from .job_shop_schedule import job_shop_schedule
 from .flow_shop_schedule import flow_shop_schedule
 from .parallel_machine_cmax import parallel_machine_cmax
+from .preemptive_spt import preemptive_spt
