@@ -24,3 +24,4 @@ from .parallel_machine_cmax import parallel_machine_cmax
 from .preemptive_spt import preemptive_spt
 from .round_robin_scheduling import round_robin_scheduling
 from .gantt_chart_data import gantt_chart_data
+from .machine_utilization import machine_utilization
