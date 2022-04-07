@@ -27,3 +27,4 @@ from .gantt_chart_data import gantt_chart_data
 from .machine_utilization import machine_utilization
 from .setup_time_aware_scheduling import setup_time_aware_scheduling
 from .no_wait_scheduling import no_wait_scheduling
+from .batch_scheduling import batch_scheduling
