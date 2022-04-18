@@ -28,3 +28,4 @@ from .machine_utilization import machine_utilization
 from .setup_time_aware_scheduling import setup_time_aware_scheduling
 from .no_wait_scheduling import no_wait_scheduling
 from .batch_scheduling import batch_scheduling
+from .resource_constrained_scheduling import resource_constrained_scheduling
