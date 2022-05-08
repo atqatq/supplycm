@@ -30,3 +30,4 @@ from .no_wait_scheduling import no_wait_scheduling
 from .batch_scheduling import batch_scheduling
 from .resource_constrained_scheduling import resource_constrained_scheduling
 from .critical_path_method import critical_path_method
+from .pert_expected_duration import pert_expected_duration
