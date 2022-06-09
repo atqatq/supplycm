@@ -33,3 +33,4 @@ from .critical_path_method import critical_path_method
 from .pert_expected_duration import pert_expected_duration
 from .slack_time_calculation import slack_time_calculation
 from .line_balancing import line_balancing
+from .rpw_priority import rpw_priority
