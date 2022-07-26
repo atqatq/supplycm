@@ -37,3 +37,4 @@ from .rpw_priority import rpw_priority
 from .parallel_station_scheduling import parallel_station_scheduling
 from .deteriorating_jobs_scheduling import deteriorating_jobs_scheduling
 from .learning_curve_scheduling import learning_curve_scheduling
+from .two_machine_open_shop import two_machine_open_shop
