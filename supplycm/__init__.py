@@ -1,6 +1,7 @@
 """supplycm package."""
 
 __version__ = "0.0.1"
+from . import mrp
 from . import scheduling
 from . import network
 from . import routing
