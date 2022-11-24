@@ -8,3 +8,4 @@ from .modular_bom import modular_bom
 from .planning_bom import planning_bom
 from .available_to_promise import available_to_promise
 from .capable_to_promise import capable_to_promise
+from .rough_cut_capacity_planning import rough_cut_capacity_planning
