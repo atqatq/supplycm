@@ -9,3 +9,4 @@ from .planning_bom import planning_bom
 from .available_to_promise import available_to_promise
 from .capable_to_promise import capable_to_promise
 from .rough_cut_capacity_planning import rough_cut_capacity_planning
+from .capacity_requirements_planning import capacity_requirements_planning
