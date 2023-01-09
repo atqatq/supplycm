@@ -12,3 +12,4 @@ from .rough_cut_capacity_planning import rough_cut_capacity_planning
 from .capacity_requirements_planning import capacity_requirements_planning
 from .master_production_schedule import master_production_schedule
 from .demand_time_fence import demand_time_fence
+from .planning_time_fence import planning_time_fence
