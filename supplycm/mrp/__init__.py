@@ -15,3 +15,4 @@ from .demand_time_fence import demand_time_fence
 from .planning_time_fence import planning_time_fence
 from .lead_time_offsetting import lead_time_offsetting
 from .safety_lead_time import safety_lead_time
+from .shrinkage_factor import shrinkage_factor
