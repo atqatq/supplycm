@@ -18,3 +18,4 @@ from .safety_lead_time import safety_lead_time
 from .shrinkage_factor import shrinkage_factor
 from .lot_size_rule_l4l import lot_size_rule_l4l
 from .lot_size_rule_foq import lot_size_rule_foq
+from .lot_size_rule_poq import lot_size_rule_poq
