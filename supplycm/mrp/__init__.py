@@ -21,3 +21,4 @@ from .lot_size_rule_foq import lot_size_rule_foq
 from .lot_size_rule_poq import lot_size_rule_poq
 from .lot_size_rule_epr import lot_size_rule_epr
 from .quantity_discount_mrp import quantity_discount_mrp
+from .minimum_order_quantity import minimum_order_quantity
