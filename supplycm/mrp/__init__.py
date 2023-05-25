@@ -24,3 +24,4 @@ from .quantity_discount_mrp import quantity_discount_mrp
 from .minimum_order_quantity import minimum_order_quantity
 from .maximum_order_quantity import maximum_order_quantity
 from .order_multiples import order_multiples
+from .pegging import pegging
