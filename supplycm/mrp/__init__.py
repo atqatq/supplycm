@@ -27,3 +27,4 @@ from .order_multiples import order_multiples
 from .pegging import pegging
 from .cycle_counting import cycle_counting
 from .backflush import backflush
+from .kaban_sizing import kaban_sizing
