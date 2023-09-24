@@ -5,3 +5,4 @@ from .genetic_algorithm import genetic_algorithm
 from .simulated_annealing import simulated_annealing
 from .tabu_search import tabu_search
 from .ant_colony_optimization import ant_colony_optimization
+from .particle_swarm_optimization import particle_swarm_optimization
