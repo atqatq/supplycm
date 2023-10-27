@@ -8,3 +8,4 @@ from .ant_colony_optimization import ant_colony_optimization
 from .particle_swarm_optimization import particle_swarm_optimization
 from .gradient_descent import gradient_descent
 from .newton_raphson import newton_raphson
+from .golden_section_search import golden_section_search
