@@ -10,3 +10,4 @@ from .gradient_descent import gradient_descent
 from .newton_raphson import newton_raphson
 from .golden_section_search import golden_section_search
 from .lagrange_multiplier import lagrange_multiplier
+from .knapsack_01_dp import knapsack_01_dp
