@@ -12,3 +12,4 @@ from .golden_section_search import golden_section_search
 from .lagrange_multiplier import lagrange_multiplier
 from .knapsack_01_dp import knapsack_01_dp
 from .fractional_knapsack import fractional_knapsack
+from .dynamic_programming_lcs import dynamic_programming_lcs
