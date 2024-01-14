@@ -15,3 +15,4 @@ from .fractional_knapsack import fractional_knapsack
 from .dynamic_programming_lcs import dynamic_programming_lcs
 from .edit_distance import edit_distance
 from .convex_hull import convex_hull
+from .merge_sort import merge_sort
