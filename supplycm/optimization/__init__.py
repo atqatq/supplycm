@@ -17,3 +17,4 @@ from .edit_distance import edit_distance
 from .convex_hull import convex_hull
 from .merge_sort import merge_sort
 from .quick_sort import quick_sort
+from .binary_search import binary_search
