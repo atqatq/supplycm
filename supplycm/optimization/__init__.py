@@ -20,3 +20,4 @@ from .quick_sort import quick_sort
 from .binary_search import binary_search
 from .heap_sort import heap_sort
 from .set_cover_greedy import set_cover_greedy
+from .bin_packing_first_fit import bin_packing_first_fit
