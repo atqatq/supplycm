@@ -25,3 +25,4 @@ from .bin_packing_best_fit import bin_packing_best_fit
 from .bin_packing_first_fit_decreasing import bin_packing_first_fit_decreasing
 from .graph_coloring_greedy import graph_coloring_greedy
 from .matrix_chain_multiplication import matrix_chain_multiplication
+from .longest_increasing_subsequence import longest_increasing_subsequence
