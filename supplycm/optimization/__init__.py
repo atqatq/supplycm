@@ -27,3 +27,4 @@ from .graph_coloring_greedy import graph_coloring_greedy
 from .matrix_chain_multiplication import matrix_chain_multiplication
 from .longest_increasing_subsequence import longest_increasing_subsequence
 from .n_queens_backtracking import n_queens_backtracking
+from .subset_sum import subset_sum
