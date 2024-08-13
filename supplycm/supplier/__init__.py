@@ -4,3 +4,4 @@ from .topsis import topsis
 from .data_envelopment_analysis import data_envelopment_analysis
 from .weighted_point_method import weighted_point_method
 from .supplier_risk_score import supplier_risk_score
+from .supplier_evaluation_matrix import supplier_evaluation_matrix
