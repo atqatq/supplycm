@@ -9,3 +9,4 @@ from .promethee import promethee
 from .electre import electre
 from .analytic_network_process import analytic_network_process
 from .fuzzy_topsis import fuzzy_topsis
+from .supplier_segmentation import supplier_segmentation
