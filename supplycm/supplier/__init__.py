@@ -13,3 +13,4 @@ from .supplier_segmentation import supplier_segmentation
 from .total_cost_of_ownership import total_cost_of_ownership
 from .should_cost_analysis import should_cost_analysis
 from .price_analysis import price_analysis
+from .competitive_bidding import competitive_bidding
