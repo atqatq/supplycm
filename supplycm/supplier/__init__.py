@@ -15,3 +15,4 @@ from .should_cost_analysis import should_cost_analysis
 from .price_analysis import price_analysis
 from .competitive_bidding import competitive_bidding
 from .negotiation_zone import negotiation_zone
+from .supplier_rating import supplier_rating
