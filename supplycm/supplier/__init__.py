@@ -17,3 +17,4 @@ from .competitive_bidding import competitive_bidding
 from .negotiation_zone import negotiation_zone
 from .supplier_rating import supplier_rating
 from .vendor_scorecard import vendor_scorecard
+from .lead_time_quoted_vs_actual import lead_time_quoted_vs_actual
