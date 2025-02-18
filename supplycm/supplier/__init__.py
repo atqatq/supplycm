@@ -21,3 +21,4 @@ from .lead_time_quoted_vs_actual import lead_time_quoted_vs_actual
 from .on_time_delivery_rate import on_time_delivery_rate
 from .supplier_consolidation import supplier_consolidation
 from .purchase_price_variance import purchase_price_variance
+from .spend_analysis import spend_analysis
