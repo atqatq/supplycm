@@ -23,3 +23,4 @@ from .supplier_consolidation import supplier_consolidation
 from .purchase_price_variance import purchase_price_variance
 from .spend_analysis import spend_analysis
 from .maverick_spend_detection import maverick_spend_detection
+from .purchase_order_compliance import purchase_order_compliance
