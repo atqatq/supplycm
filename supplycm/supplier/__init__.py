@@ -24,3 +24,4 @@ from .purchase_price_variance import purchase_price_variance
 from .spend_analysis import spend_analysis
 from .maverick_spend_detection import maverick_spend_detection
 from .purchase_order_compliance import purchase_order_compliance
+from .supplier_diversity_index import supplier_diversity_index
