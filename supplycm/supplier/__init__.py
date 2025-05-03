@@ -28,3 +28,4 @@ from .supplier_diversity_index import supplier_diversity_index
 from .strategic_supplier_scorecard import strategic_supplier_scorecard
 from .supplier_audit_score import supplier_audit_score
 from .contract_compliance_score import contract_compliance_score
+from .preferred_supplier_index import preferred_supplier_index
