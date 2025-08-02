@@ -6,3 +6,4 @@ from .s_shape_routing import s_shape_routing
 from .return_routing import return_routing
 from .pallet_building import pallet_building
 from .cross_dock_scheduling import cross_dock_scheduling
+from .dock_door_assignment import dock_door_assignment
