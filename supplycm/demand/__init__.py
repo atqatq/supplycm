@@ -2,3 +2,4 @@
 from .demand_aggregation import demand_aggregation
 from .demand_disaggregation import demand_disaggregation
 from .demand_class_abc_xyz import demand_class_abc_xyz
+from .promotional_demand_lift import promotional_demand_lift
