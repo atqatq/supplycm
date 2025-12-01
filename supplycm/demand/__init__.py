@@ -7,3 +7,4 @@ from .cannibalization_effect import cannibalization_effect
 from .stockout_demand_loss import stockout_demand_loss
 from .demand_sensing import demand_sensing
 from .seasonality_index import seasonality_index
+from .trend_seasonal_decomposition_forecast import trend_seasonal_decomposition_forecast
