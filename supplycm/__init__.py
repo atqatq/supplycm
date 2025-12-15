@@ -1,6 +1,6 @@
 """supplycm package."""
 
-__version__ = "0.0.1"
+__version__ = "0.1.0"
 from . import risk
 from . import demand
 from . import warehouse
