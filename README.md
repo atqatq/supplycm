@@ -37,6 +37,8 @@ cd supplycm
 pip install .
 ```
 
+**Note**: Python 3.6 or later is required. Check your version with `python --version`.
+
 ### Without installation
 
 ```python
