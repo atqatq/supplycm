@@ -10,8 +10,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
-        python-version: [3.8, 3.9, 3.10, 3.11, 3.12]
+        python-version: [3.8, 3.9, 3.10, 3.11, 3.12, 3.13]
 
     steps:
     - uses: actions/checkout@v4
@@ -26,24 +27,33 @@ jobs:
         python -m pip install --upgrade pip
         pip install -e .
 
-    - name: Run tests
+    - name: Run unit tests
       run: python tests/run_tests.py
 
+    - name: Run edge case tests
+      run: python -m pytest tests/test_edge_cases.py -v
+
+    - name: Run integration tests
+      run: python -m pytest tests/test_integration.py -v
+
     - name: Run doctests
+      run: python tests/run_doctests.py
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.12
+    - name: Check type hints
+      run: python tests/check_type_hints.py
+    - name: Check import structure
       run: |
         python -c "
-        import doctest
         import supplycm
-        from supplycm import inventory, forecasting, statistics, routing, network
-        from supplycm import scheduling, mrp, optimization, supplier, warehouse, demand, risk
-        modules = [inventory, forecasting, statistics, routing, network,
-                   scheduling, mrp, optimization, supplier, warehouse, demand, risk]
-        total_failures = 0
-        for mod in modules:
-            results = doctest.testmod(mod, verbose=False)
-            total_failures += results.failed
-        if total_failures > 0:
-            print(f'{total_failures} doctest failures')
-            exit(1)
-        print('All doctests passed')
+        from supplycm import (inventory, forecasting, statistics, routing, network,
+                              scheduling, mrp, optimization, supplier, warehouse, demand, risk)
+        print('All modules import successfully')
         "
