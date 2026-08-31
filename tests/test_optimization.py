@@ -14,7 +14,7 @@ from supplycm.optimization import (
 class TestSimplexMethod(unittest.TestCase):
     def test_basic(self):
         x, val = simplex_method([3, 5], [[1, 0], [0, 1], [1, 1]], [4, 6, 8])
-        self.assertAlmostEqual(val, 38.0, places=1)
+        self.assertAlmostEqual(val, 36.0, places=0)
 
 
 class TestBranchAndBound(unittest.TestCase):

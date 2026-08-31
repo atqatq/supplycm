@@ -16,7 +16,7 @@ from .coefficient_of_variation import coefficient_of_variation
 from .confidence_interval_mean import confidence_interval_mean
 from .descriptive_stats import descriptive_stats
 from .correlation import correlation
-from .spearman_correlation import _rank
+from .spearman_correlation import spearman_correlation
 from .outlier_detection_iqr import outlier_detection_iqr
 from .zscore import zscore
 from .minmax_scale import minmax_scale

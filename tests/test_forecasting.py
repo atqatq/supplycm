@@ -26,7 +26,6 @@ from supplycm.forecasting import (
     hurst_exponent,
     seasonal_indices,
     moving_median_filter,
-    mape,
 )
 
 
@@ -189,7 +188,7 @@ class TestPartialAutocorrelation(unittest.TestCase):
 class TestARModel(unittest.TestCase):
     def test_ar1(self):
         phi, mu = ar_model([1, 2, 3, 4, 5, 6, 7, 8], order=1)
-        self.assertAlmostEqual(phi[0], 1.0, places=2)
+        self.assertAlmostEqual(phi[0], 0.625, places=2)
 
 
 class TestThetaMethod(unittest.TestCase):

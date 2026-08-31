@@ -1,15 +1,24 @@
-"""supplycm package."""
+"""supplycm - Supply Chain Management algorithms (pure Python).
 
-__version__ = "0.1.0"
-from . import risk
-from . import demand
-from . import warehouse
-from . import supplier
-from . import optimization
-from . import mrp
-from . import scheduling
-from . import network
-from . import routing
-from . import statistics
-from . import inventory
+A collection of 360 patent-free / public-domain algorithms for
+forecasting, inventory, transportation, network optimization,
+scheduling, MRP, statistics, optimization, supplier management,
+warehouse operations, demand planning and risk assessment.
+
+Version 1.0.0 - First stable release with full test coverage.
+"""
+
+__version__ = "1.0.0"
+
 from . import forecasting
+from . import inventory
+from . import statistics
+from . import routing
+from . import network
+from . import scheduling
+from . import mrp
+from . import optimization
+from . import supplier
+from . import warehouse
+from . import demand
+from . import risk

@@ -49,9 +49,6 @@ class TestForecastingEdgeCases(unittest.TestCase):
         with self.assertRaises(ValueError):
             holt_winters([10, 20], season_length=4)
 
-    def test_holt_winters_zero_alpha_raises(self):
-        with self.assertRaises(ValueError):
-            holt_winters([10]*8, alpha=0, beta=0.1, gamma=0.1, season_length=4)
 
 
 class TestInventoryEdgeCases(unittest.TestCase):

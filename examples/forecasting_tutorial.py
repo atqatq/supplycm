@@ -5,6 +5,10 @@ Holt-Winters method, and forecast accuracy metrics.
 
 Run: python examples/forecasting_tutorial.py
 """
+
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from supplycm.forecasting import (
     simple_moving_average,
     single_exponential_smoothing,

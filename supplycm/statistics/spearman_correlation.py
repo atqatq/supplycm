@@ -1,5 +1,6 @@
 """Spearman rank correlation."""
 from typing import List
+from .correlation import correlation
 
 
 def _rank(values: List[float]) -> List[float]:
@@ -30,4 +31,3 @@ def spearman_correlation(x: List[float], y: List[float]) -> float:
     return correlation(rx, ry)
 
 
-from typing import List

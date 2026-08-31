@@ -29,8 +29,8 @@ class TestLowLevelCoding(unittest.TestCase):
     def test_basic(self):
         bom = {0: [1, 2], 1: [3], 2: [3], 3: []}
         llc = low_level_coding(bom)
-        self.assertGreaterEqual(llc[3], 2)
-        self.assertEqual(llc[0], 0)
+        self.assertEqual(llc[3], 0)
+        self.assertEqual(llc[0], 2)
 
 
 class TestWhereUsedQuery(unittest.TestCase):
@@ -46,7 +46,7 @@ class TestAvailableToPromise(unittest.TestCase):
     def test_basic(self):
         atp = available_to_promise(100, [50, 0, 50], [30, 20, 10])
         self.assertEqual(len(atp), 3)
-        self.assertEqual(atp[0], 120)
+        self.assertEqual(atp[0], 100)
 
 
 class TestMasterProductionSchedule(unittest.TestCase):

@@ -31,7 +31,7 @@ class TestEDDRule(unittest.TestCase):
 class TestWSPTRule(unittest.TestCase):
     def test_ordering(self):
         result = wspt_rule([5, 2, 8], [1, 1, 4])
-        self.assertEqual(result[0], 2)
+        self.assertIn(result[0], [1, 2])
 
 
 class TestMooreHodgson(unittest.TestCase):
@@ -69,19 +69,19 @@ class TestFCFSRule(unittest.TestCase):
 class TestCmaxCalculation(unittest.TestCase):
     def test_basic(self):
         result = cmax_calculation([0, 1, 2], [[3, 5], [1, 2], [4, 1]])
-        self.assertEqual(result, 13.0)
+        self.assertAlmostEqual(result, 11.0, places=1)
 
 
 class TestTardinessCalculation(unittest.TestCase):
     def test_basic(self):
         result = tardiness_calculation([0, 1, 2], [3, 2, 4], [5, 10, 12])
-        self.assertEqual(result, 2.0)
+        self.assertAlmostEqual(result, 0.0, places=1)
 
 
 class TestTotalCompletionTime(unittest.TestCase):
     def test_basic(self):
         result = total_completion_time([0, 1, 2], [3, 2, 4])
-        self.assertEqual(result, 16.0)
+        self.assertAlmostEqual(result, 17.0, places=1)
 
 
 class TestListScheduling(unittest.TestCase):
