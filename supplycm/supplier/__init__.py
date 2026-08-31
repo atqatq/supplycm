@@ -7,3 +7,4 @@ from .supplier_risk_score import supplier_risk_score
 from .supplier_evaluation_matrix import supplier_evaluation_matrix
 from .promethee import promethee
 from .electre import electre
+from .analytic_network_process import analytic_network_process
