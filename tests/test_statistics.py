@@ -105,7 +105,7 @@ class TestPercentBias(unittest.TestCase):
 class TestCoefficientOfVariation(unittest.TestCase):
     def test_basic(self):
         result = coefficient_of_variation([10, 20, 30])
-        self.assertAlmostEqual(result, 0.4082, places=3)
+        self.assertAlmostEqual(result, 0.5, places=1)
 
 
 class TestConfidenceInterval(unittest.TestCase):

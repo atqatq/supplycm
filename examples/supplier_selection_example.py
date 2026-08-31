@@ -5,6 +5,10 @@ evaluating and ranking suppliers.
 
 Run: python examples/supplier_selection_example.py
 """
+
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from supplycm.supplier import (
     ahp_supplier_selection,
     topsis,

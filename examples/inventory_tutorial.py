@@ -5,6 +5,10 @@ Economic Order Quantity (EOQ), safety stock, and ABC analysis.
 
 Run: python examples/inventory_tutorial.py
 """
+
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from supplycm.inventory import (
     economic_order_quantity,
     safety_stock_normal,

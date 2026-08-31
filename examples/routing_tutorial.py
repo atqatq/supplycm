@@ -5,6 +5,10 @@ Problem (VRP) solutions.
 
 Run: python examples/routing_tutorial.py
 """
+
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from supplycm.routing import (
     tsp_nearest_neighbor,
     tsp_two_opt,

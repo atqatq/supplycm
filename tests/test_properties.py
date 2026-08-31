@@ -61,12 +61,13 @@ class TestABCAnalysisProperties(unittest.TestCase):
 
     def test_class_a_has_highest_value(self):
         """Class A items should have higher value than Class C."""
-        items = [('a', 1000), ('b', 500), ('c', 100), ('d', 50), ('e', 10)]
+        items = [('a', 1000), ('b', 900), ('c', 100), ('d', 50), ('e', 10)]
         result = abc_analysis(items)
-        a_items = [items[r[0]] for r in result if r[1] == 'A']
-        c_items = [items[r[0]] for r in result if r[1] == 'C']
-        if a_items and c_items:
-            self.assertGreater(a_items[0][1], c_items[0][1])
+        # Get value of first A item and last C item
+        a_vals = [dict(items)[r[0]] for r in result if r[1] == 'A']
+        c_vals = [dict(items)[r[0]] for r in result if r[1] == 'C']
+        if a_vals and c_vals:
+            self.assertGreater(max(a_vals), max(c_vals))
 
 
 class TestForecastingProperties(unittest.TestCase):

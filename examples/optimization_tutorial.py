@@ -5,6 +5,10 @@ and knapsack problem solving.
 
 Run: python examples/optimization_tutorial.py
 """
+
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from supplycm.optimization import (
     simplex_method,
     genetic_algorithm,
