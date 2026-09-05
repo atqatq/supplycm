@@ -17,6 +17,19 @@ def economic_order_quantity(demand: float, ordering_cost: float, holding_cost: f
         >>> round(economic_order_quantity(1000, 100, 5), 2)
         200.0
     """
-    if demand <= 0 or ordering_cost <= 0 or holding_cost <= 0:
-        raise ValueError("all inputs must be positive")
+    if demand <= 0:
+        raise ValueError(
+            f"demand must be positive (got {demand}). "
+            f"EOQ is not defined for zero or negative demand."
+        )
+    if ordering_cost <= 0:
+        raise ValueError(
+            f"ordering_cost must be positive (got {ordering_cost}). "
+            f"If ordering is free, any order quantity is optimal."
+        )
+    if holding_cost <= 0:
+        raise ValueError(
+            f"holding_cost must be positive (got {holding_cost}). "
+            f"If holding cost is truly zero, consider using lot-for-lot ordering."
+        )
     return math.sqrt(2 * demand * ordering_cost / holding_cost)
