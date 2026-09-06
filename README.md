@@ -158,6 +158,25 @@ Learn by doing with Jupyter notebooks in the `notebooks/` directory:
 jupyter notebook notebooks/
 ```
 
+
+## Community
+
+- **[Discussions](https://github.com/atqatq/supplycm/discussions)** - Ask questions, share ideas, show your projects
+- **[Issues](https://github.com/atqatq/supplycm/issues)** - Report bugs or request features
+- **[Contributing Guide](CONTRIBUTING.md)** - How to contribute code, documentation, or algorithms
+
+### Good First Issues
+
+New to the project? Look for issues labeled `good first issue`:
+- [Add type hints to warehouse functions](https://github.com/atqatq/supplycm/issues/4)
+- [Fix README typo](https://github.com/atqatq/supplycm/issues/5)
+
+### Help Wanted
+
+We need help with:
+- [Chinese language documentation](https://github.com/atqatq/supplycm/issues/9)
+- [Bayesian forecasting methods](https://github.com/atqatq/supplycm/issues/6)
+
 ## License
 
 MIT - see [LICENSE](LICENSE).
