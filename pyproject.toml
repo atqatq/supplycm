@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "supplycm"
-version = "1.0.0"
-description = "Supply Chain Management algorithms (360+ pure-Python, no dependencies)"
+version = "1.2.1"
+description = "Supply Chain Management algorithms (397 pure-Python, no dependencies)"
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.6"

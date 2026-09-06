@@ -5,10 +5,10 @@ forecasting, inventory, transportation, network optimization,
 scheduling, MRP, statistics, optimization, supplier management,
 warehouse operations, demand planning and risk assessment.
 
-Version 1.2.0 - First stable release with full test coverage.
+Version 1.2.1 - First stable release with full test coverage.
 """
 
-__version__ = "1.2.0"
+__version__ = "1.2.1"
 
 from . import forecasting
 from . import inventory

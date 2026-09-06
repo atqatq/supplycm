@@ -6,8 +6,8 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="supplycm",
-    version="1.2.0",
-    description="Supply Chain Management algorithms (360+ pure-Python, no dependencies)",
+    version="1.2.1",
+    description="Supply Chain Management algorithms (397 pure-Python, no dependencies)",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Atique",

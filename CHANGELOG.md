@@ -10,6 +10,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Planned
 - Machine learning algorithms
 - Real-time dashboards
+
+## [1.2.1] - 2026-09-06
+
+### Changed
+- Moved education materials (learning paths, concept map, flashcards, notebooks) to a separate repository
+- Package now contains only the Python library, tests, and examples
+- Updated README to link to the companion learning repository
+
+### Notes
+- No algorithm changes in this release
+- No breaking changes
+
+
+
+### Planned
+- Machine learning algorithms
+- Real-time dashboards
 - API wrapper
 ## [1.2.0] - 2026-09-06
 
