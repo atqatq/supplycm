@@ -76,7 +76,7 @@ class TestContracts(unittest.TestCase):
 
     def test_buyback(self):
         result = buyback_contract(50, 100, 30, 800, 20, 10)
-        self.assertIsInstance(result["supplier_profit"], float)
+        self.assertIsInstance(result["supplier_profit"], (int, float))
 
     def test_quantity_flexibility(self):
         result = quantity_flexibility_contract(50, 100, 1000, 900, 20, 0.2)

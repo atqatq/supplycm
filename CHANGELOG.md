@@ -8,6 +8,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Planned
+- Interactive learning notebooks
+- Video tutorials
+- Certification program
+## [1.1.0] - 2026-09-06
+
+### Added
+- 24 new algorithms across 7 new categories:
+  - Quality / Six Sigma (7): X-bar chart, R chart, P-chart, Cp, Cpk, DPMO, sigma level
+  - Lean (4): takt time, OEE, cycle efficiency, WIP calculation
+  - S&OP (3): demand-supply match, chase and level production strategies
+  - Sustainability (3): carbon footprint, reverse logistics, energy consumption
+  - Contracts (3): revenue sharing, buyback, quantity flexibility
+  - Simulation (2): Monte Carlo inventory and risk
+  - Cost (2): landed cost, total procurement cost
+- Comprehensive education framework:
+  - Learning paths (beginner to advanced)
+  - Concept map showing algorithm relationships
+  - Data sources guide per algorithm
+  - Flashcards for exam preparation
+  - Plain English guides per category
+- Unit tests for all new algorithms
+
+### Changed
+- Total algorithm count increased from 360 to 384
+- README updated with education section
+
+
+
+### Planned
 - Additional algorithms for sustainability and green supply chain
 - Performance optimizations for large datasets
 - Integration with popular data formats

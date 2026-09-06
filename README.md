@@ -63,6 +63,14 @@ import supplycm
 | `supplycm.warehouse` | 10 | Slotting, picking, cross-dock, putaway |
 | `supplycm.demand` | 9 | Aggregation, seasonality, sensing, cannibalization |
 | `supplycm.risk` | 1 | Supply chain resilience index |
+
+| `supplycm.quality` | 7 | Control charts, Cp/Cpk, DPMO, sigma level |
+| `supplycm.lean` | 4 | Takt time, OEE, Little's Law, cycle efficiency |
+| `supplycm.sop` | 3 | Sales and Operations Planning, chase/level strategies |
+| `supplycm.sustainability` | 3 | Carbon footprint, reverse logistics, energy |
+| `supplycm.contracts` | 3 | Revenue sharing, buyback, quantity flexibility |
+| `supplycm.simulation` | 2 | Monte Carlo inventory and risk simulation |
+| `supplycm.cost` | 2 | Landed cost, total procurement cost |
 | **Total** | **360** | |
 
 ## Python Version Compatibility
@@ -112,6 +120,24 @@ See the `examples/` directory for tutorials:
 - [Security Policy](SECURITY.md)
 - [Changelog](CHANGELOG.md)
 - [FAQ](docs/FAQ.md)
+
+
+## Education and Learning
+
+The `education/` directory contains comprehensive learning materials:
+
+- **[LEARNING_PATHS.md](education/LEARNING_PATHS.md)** - Structured curricula from beginner to advanced
+- **[CONCEPT_MAP.md](education/CONCEPT_MAP.md)** - Visual map of how algorithms connect
+- **[DATA_SOURCES.md](education/DATA_SOURCES.md)** - Where to find real data for each algorithm
+- **[FLASHCARDS.md](education/FLASHCARDS.md)** - Quick Q&A for exam preparation
+- **[PLAIN_ENGLISH_GUIDES/](education/PLAIN_ENGLISH_GUIDES/)** - Plain English explanations per category
+
+### Learning Paths
+
+1. **Beginner** (Operations Analyst) - 4 to 6 weeks
+2. **Intermediate** (Supply Chain Planner) - 8 to 12 weeks
+3. **Advanced** (Supply Chain Manager) - 12 to 16 weeks
+4. **Specialist** (Data Scientist / Operations Research) - Ongoing
 
 ## License
 
