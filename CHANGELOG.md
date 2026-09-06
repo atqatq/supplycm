@@ -8,6 +8,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Planned
+- Machine learning algorithms
+- Real-time dashboards
+- API wrapper
+## [1.2.0] - 2026-09-06
+
+### Added
+- 13 new algorithms across 3 new categories:
+  - Network Design (5): center of gravity, facility location, single-source allocation, break-even, network reliability
+  - IoT / Real-time (4): anomaly detection, sensor smoothing, inventory monitoring, data aggregation
+  - Blockchain (4): hash chain, verify chain, provenance tracking, smart contracts
+- 5 interactive Jupyter notebooks for hands-on learning
+- Unit tests for all new algorithms
+
+### Changed
+- Total algorithm count increased from 384 to 397
+- README updated with notebook links
+
+
+
+### Planned
 - Interactive learning notebooks
 - Video tutorials
 - Certification program

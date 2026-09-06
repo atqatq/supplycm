@@ -71,6 +71,10 @@ import supplycm
 | `supplycm.contracts` | 3 | Revenue sharing, buyback, quantity flexibility |
 | `supplycm.simulation` | 2 | Monte Carlo inventory and risk simulation |
 | `supplycm.cost` | 2 | Landed cost, total procurement cost |
+
+| `supplycm.network_design` | 5 | Center of gravity, facility location, break-even |
+| `supplycm.iot` | 4 | Anomaly detection, sensor smoothing, real-time monitoring |
+| `supplycm.blockchain` | 4 | Hash chain, provenance tracking, smart contracts |
 | **Total** | **360** | |
 
 ## Python Version Compatibility
@@ -138,6 +142,21 @@ The `education/` directory contains comprehensive learning materials:
 2. **Intermediate** (Supply Chain Planner) - 8 to 12 weeks
 3. **Advanced** (Supply Chain Manager) - 12 to 16 weeks
 4. **Specialist** (Data Scientist / Operations Research) - Ongoing
+
+
+## Interactive Notebooks
+
+Learn by doing with Jupyter notebooks in the `notebooks/` directory:
+
+1. **[01_getting_started.ipynb](notebooks/01_getting_started.ipynb)** - Installation and first calculation
+2. **[02_demand_forecasting.ipynb](notebooks/02_demand_forecasting.ipynb)** - Forecasting methods compared
+3. **[03_inventory_optimization.ipynb](notebooks/03_inventory_optimization.ipynb)** - EOQ, safety stock, ABC analysis
+4. **[04_route_optimization.ipynb](notebooks/04_route_optimization.ipynb)** - TSP, VRP, assignment problem
+5. **[05_quality_and_lean.ipynb](notebooks/05_quality_and_lean.ipynb)** - Six Sigma, OEE, takt time
+
+```bash
+jupyter notebook notebooks/
+```
 
 ## License
 
